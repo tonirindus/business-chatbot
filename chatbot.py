@@ -7,6 +7,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer # Import the WordNetLemmatizer class from the nltk.stem module
 from keras.models import load_model # Import the Sequential class from the tensorflow.keras.models module
 
+nltk.download('punkt')
+
 lemmatizer = WordNetLemmatizer() # Create an instance of the WordNetLemmatizer class
 intents = json.loads(open('intents_spanish.json', 'r', encoding='utf-8' ).read()) # Load the intents.json file
 
