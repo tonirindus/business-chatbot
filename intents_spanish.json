@@ -1,0 +1,98 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos días", "Buenas tardes"],
+            "responses": ["¡Hola! ¿Cómo puedo ayudarte hoy?",  "¡Buenas! ¿Qué necesitas?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
+            "responses": ["¡Adiós! ¡Esperamos verte pronto!", "¡Hasta luego! ¡Gracias por visitarnos!", "¡Nos vemos! ¡Vuelve pronto!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["Gracias", "Muchas gracias", "Gracias por la ayuda"],
+            "responses": ["¡De nada! ¡Estoy aquí para ayudarte!", "¡No hay de qué! ¡Siempre a tu servicio!", "¡Fue un placer ayudarte!"]
+        },
+        {
+            "tag": "compra",
+            "patterns": ["Quiero comprar algo", "Busco un producto", "Quiero hacer un pedido"],
+            "responses": ["¡Genial! ¿Qué tipo de producto estás buscando?", "¡Por supuesto! ¿Puedes darme más detalles sobre el producto que buscas?", "¡Perfecto! ¿Qué te gustaría pedir?"]
+        },
+        {
+            "tag": "devolucion",
+            "patterns": ["Quiero devolver un producto", "Necesito hacer una devolución", "Tengo un problema con mi pedido"],
+            "responses": ["Lo siento por los inconvenientes. ¿Puedes darme más detalles sobre el problema?", "Entiendo. ¿Podrías decirme tu número de pedido, por favor?", "Lamento escuchar eso. Vamos a solucionarlo. ¿Me puedes dar más información?"]
+        }, {
+            "tag": "consulta_inventario",
+            "patterns": ["¿Tienes este producto en stock?", "¿Cuántas unidades quedan de este producto?", "¿Este producto está disponible?"],
+            "responses": ["Déjame comprobarlo. ¿Puedes darme más detalles sobre el producto?", "Voy a verificar nuestro inventario. ¿Cuál es el producto que buscas?", "Para poder ayudarte, necesito que me des más información sobre el producto que buscas."]
+        },
+        {
+            "tag": "consulta_envio",
+            "patterns": ["¿Cuándo llegará mi pedido?", "¿Cuánto cuesta el envío?", "¿Hacen envíos internacionales?"],
+            "responses": ["Para rastrear tu pedido, necesito que me proporciones el número de pedido.", "El costo de envío depende de la ubicación y el peso del paquete. ¿Puedes darme más detalles?", "Sí, hacemos envíos internacionales. Sin embargo, los costos y tiempos de envío pueden variar."]
+        },
+        {
+            "tag": "consulta_pago",
+            "patterns": ["¿Qué métodos de pago aceptan?",  "¿Cuáles son los métodos de pago disponibles", "¿Cómo puedo pagar?", "¿Se puede pagar con paypal?","¿Se puede pagar con tarjeta de crédito?"],
+            "responses": ["Aceptamos varias formas de pago, incluyendo tarjetas de crédito y débito, PayPal, y transferencias bancarias."]
+        },
+        {
+            "tag": "soporte_tecnico",
+            "patterns": ["Tengo un problema con el sitio web", "No puedo agregar productos al carrito", "No puedo completar mi compra"],
+            "responses": ["Lamento escuchar que estás teniendo problemas. ¿Puedes describir el problema con más detalle?", "Parece que estás experimentando problemas técnicos. Permíteme ayudarte.", "Vamos a solucionar esto. ¿Puedes decirme qué error estás viendo?"]
+        },
+        {
+            "tag":"contacto",
+            "patterns": ["¿Cuál es su número de teléfono?", "¿Cuál es su correo electrónico?", "¿Cuál es su dirección?", "¿Dónde están ubicados?", "¿Cuál es su dirección de correo electrónico?", "Cuál es su telefono"],
+            "responses": ["Puedes contactarnos por teléfono al 555-555-5555, por correo electrónico a ecommerce@info.com o visitarnos en 123 Calle Falsa, Springfield, Estados Unidos."]
+        },
+        {
+            "tag": "horario",
+            "patterns": ["¿Cuál es su horario de atención?", "¿A qué hora abren?", "¿A qué hora cierran?"],
+            "responses": ["Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00."]
+        },
+        {
+            "tag": "periodo_devolucion",
+            "patterns": ["¿Cuál es el periodo de devolución?", "¿Cuánto tiempo tengo para devolver un producto?", "¿Cuántos días tengo para devolver un producto?"],
+            "responses": ["El periodo de devolución es de 30 días."]
+        },
+        {
+            "tag": "politica_devolucion",
+            "patterns": ["¿Cuál es su política de devolución?", "¿Cuál es su política de reembolso?", "¿Cuál es su política de cambios?"],
+            "responses": ["Puedes leer nuestra política de devolución en https://www.info.com/devoluciones."]
+        },
+        {
+            "tag": "politica_privacidad",
+            "patterns": ["¿Cuál es su política de privacidad?", "¿Cuál es su política de cookies?", "¿Cuál es su política de protección de datos?"],
+            "responses": ["Puedes leer nuestra política de privacidad en https://www.info.com/privacidad."]
+        },
+        {
+            "tag": "politica_envio",
+            "patterns": ["¿Cuál es su política de envío?", "¿Cuál es su política de entrega?", "¿Cuál es su política de transporte?"],
+            "responses": ["Puedes leer nuestra política de envío en https://www.info.com/envios."]
+        },
+        {
+            "tag": "politica_pago",
+            "patterns": ["¿Cuál es su política de pago?", "¿Cuál es su política de cobro?", "¿Cuál es su política de facturación?"],
+            "responses": ["Puedes leer nuestra política de pago en https://www.info.com/pagos."]
+        },
+        {
+            "tag": "politica_seguridad",
+            "patterns": ["¿Cuál es su política de seguridad?", "¿Cuál es su política de protección de datos?", "¿Cuál es su política de privacidad?"],
+            "responses": ["Puedes leer nuestra política de seguridad en https://www.info.com/seguridad."]
+        },
+        {
+            "tag": "politica_cookies",
+            "patterns": ["¿Cuál es su política de cookies?", "¿Cuál es su política de privacidad?", "¿Cuál es su política de protección de datos?"],
+            "responses": ["Puedes leer nuestra política de cookies en https://www.info.com/cookies."]
+        },
+        {
+            "tag": "ofertas",
+            "patterns": ["¿Tienen ofertas?", "¿Tienen descuentos?", "¿Tienen promociones?"],
+            "responses": ["Sí, tenemos ofertas y descuentos. Puedes verlos en https://www.info.com/ofertas."]
+        }
+    ]
+}
